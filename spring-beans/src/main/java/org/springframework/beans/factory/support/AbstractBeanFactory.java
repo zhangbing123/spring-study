@@ -1665,32 +1665,36 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 	protected Object getObjectForBeanInstance(
 			Object beanInstance, String name, String beanName, @Nullable RootBeanDefinition mbd) {
 
-		// Don't let calling code try to dereference the factory if the bean isn't a factory.
+		// 如果指定的name是工厂相关(也就是以“&”为前缀)
 		if (BeanFactoryUtils.isFactoryDereference(name)) {
+			//并且实例为NullBean类型 则直接返回实例
 			if (beanInstance instanceof NullBean) {
 				return beanInstance;
 			}
+			//并且实例不是FactoryBean类型，则抛出异常
 			if (!(beanInstance instanceof FactoryBean)) {
 				throw new BeanIsNotAFactoryException(transformedBeanName(name), beanInstance.getClass());
 			}
 		}
 
-		// Now we have the bean instance, which may be a normal bean or a FactoryBean.
-		// If it's a FactoryBean, we use it to create a bean instance, unless the
-		// caller actually wants a reference to the factory.
+		// 现在我们有个bean实例，这个bean实例可能是个正常的bean也可能是个FactoryBean
+		// 如果是个FactoryBean我们使用它创建实例，但是如果用户想直接获取工厂实例而不是工厂提供的getObject()返回的实例，
+		// 那么传入的name需要加前缀“&”
 		if (!(beanInstance instanceof FactoryBean) || BeanFactoryUtils.isFactoryDereference(name)) {
 			return beanInstance;
 		}
-
+		//加载FactoryBean
 		Object object = null;
 		if (mbd == null) {
+			//尝试从缓存中加载bean
 			object = getCachedObjectForFactoryBean(beanName);
 		}
 		if (object == null) {
-			// Return bean instance from factory.
+			// 经过上面逻辑的判断，代码走到这里就一定是FactoryBean类型的了
 			FactoryBean<?> factory = (FactoryBean<?>) beanInstance;
-			// Caches object obtained from FactoryBean if it is a singleton.
+			// containsBeanDefinition()检测IOC容器中是否已经加载过beanName
 			if (mbd == null && containsBeanDefinition(beanName)) {
+				//将存储XML配置文件的GernericBeanDefinition转换为RootBeanDefinition，如果指定beanName是子bean的话会合并父类属性
 				mbd = getMergedLocalBeanDefinition(beanName);
 			}
 			boolean synthetic = (mbd != null && mbd.isSynthetic());
