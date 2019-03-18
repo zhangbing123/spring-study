@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-messaging:test" external.linked.project.path="$MODULE_DIR$/../../../spring-messaging" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.2.0.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xjsr305=strict" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-messaging/build/classes/kotlin/test" />
+          <option name="classpath" value="$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.10.jar;D:/workspace/spring-study/spring-core/build/libs/spring-objenesis-repack-3.0.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject-tck/1/bb0090d50219c265be40fcc8e034dae37fa7be99/javax.inject-tck-1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.25.0/1fcf2f6944d69b6f39cd579718d8b5395a97836b/mockito-core-2.25.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.9.1/5058fc2840d2247795bc94afa609c824a06520f9/mockk-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.1/a27082684a2ff0bf397666c3943496c44541d1ca/javax.servlet-api-4.0.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.10/dfecae23647abc9d9fd0416629a4213a3882b101/xstream-1.4.10.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-kahadb-store/5.8.0/29e761bf65b16d9931793c71ea728efb75066318/activemq-kahadb-store-5.8.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-stomp/5.8.0/65f95a0731b994fd6ff27109f5f98bc5e40a5c65/activemq-stomp-5.8.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-broker/5.8.0/36be03cd67b319eb592c3029df996be2980b12a4/activemq-broker-5.8.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-test/3.2.6.RELEASE/c4e254cc4f5cc899a180f0eb2735acee7650532e/reactor-test-3.2.6.RELEASE.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.7/394ee6d9e141acb9fbf9daf228fd8cd789eaa49a/rxjava-2.2.7.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-transport-netty/0.11.17/f74962d917d3ccab7ef65aa796e6d0ba6a5fab4/rsocket-transport-netty-0.11.17.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.9.1/8f4e5f96e6dc2f26793184383d8bdaeabb78f71a/mockk-dsl-jvm-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/d0d5ff2ac2ebd8a42697af41e20fc225a23c5d3b/kotlin-reflect-1.3.21.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-matchers/2.6.2/9bd458f42d9cf7d9a7d22c7b7589d2ac79e0cb2d/xmlunit-matchers-2.6.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.9.1/903c006fcf4864f6152a1e08ca1fa63bf40f978b/mockk-agent-jvm-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.7/8fea78fea6449e1738b675cb155ce8422661e237/byte-buddy-1.9.7.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.7/8e7d1b599f4943851ffea125fd9780e572727fc0/byte-buddy-agent-1.9.7.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.9.1/2c51a6b13c8735a4819d89c91b1795c8fc5b2191/mockk-common-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-openwire-legacy/5.8.0/7cb34a2335a3e6d93464d751f709d0dacc190438/activemq-openwire-legacy-5.8.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-client/5.8.0/f6e5f736354e5d5bd870dc540e1caed7b1343fb0/activemq-client-5.8.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.activemq.protobuf/activemq-protobuf/1.1/26682eb801f70563511f7c424dc10e8b3e66340e/activemq-protobuf-1.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/1.0.1/5372615b0c04c1913c95c34a0414cef720ca2855/geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.2/f76ff64f941e71395a0e07cad82ee44310eea842/commons-net-3.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-core/0.11.17/f2400dbba1f49146a226c103e5efeae643b3adce/rsocket-core-0.11.17.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.8.5.RELEASE/f4c636f4d281105b4f82d015ae402876ae28e8f8/reactor-netty-0.8.5.RELEASE.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.2.6.RELEASE/53fcd991bcbfadf7a49b651d1d4aa1cd273b0efd/reactor-core-3.2.6.RELEASE.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.6.2/b0461888cdd8d3975ea8a57df96520409cadcb6c/xmlunit-core-2.6.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.9.1/4fd7932a2cd635d9b1266b97594654f269496edb/mockk-dsl-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.9.1/e51943c5f7f9582eb330c238666746c0c9d97487/mockk-agent-common-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.9.1/f836690e4bbd99fead6f55115c4e8de850095ca1/mockk-agent-api-1.9.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/77100a62c2e6f04b53977b9f541044d7d722693d/slf4j-api-1.7.26.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jms_1.1_spec/1.1.1/c872b46c601d8dc03633288b81269f9e42762cea/geronimo-jms_1.1_spec-1.1.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.fusesource.hawtbuf/hawtbuf/1.9/4a42b835d1df77db8c9a144a11ebb4600a372f5f/hawtbuf-1.9.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.34.Final/66268942ed80beadaf6802e2fcf8983eef4fb7ec/netty-codec-http2-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.34.Final/42b5a57a4bb895f4489a724cdc9e454bc5afe108/netty-handler-proxy-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.34.Final/2887d87fbc1b057657348f61dc538f7296daf79/netty-codec-http-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.34.Final/96169098bebda3d1432f5421c338958063b3da52/netty-handler-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.34.Final/4ee3e61c2429f280a63729d39b3973562318600b/netty-transport-native-epoll-4.1.34.Final-linux-x86_64.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.34.Final/345a10b91e4876cb6ec642a3c010ca187f361fa0/netty-codec-socks-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.34.Final/cb53baf46cc55768f2e28d15cde399063555ea8/netty-codec-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.34.Final/7e63ead8935a85d601646d44263a40fabe225771/netty-transport-native-unix-common-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.34.Final/f57be6509efa6766d90e537a775930101f26b35c/netty-transport-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.34.Final/8afc2027eadc7848127553ebb490ea0e2b199d4e/netty-buffer-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.34.Final/528789e98eef519960a56e44569ecb2260782fd7/netty-resolver-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.34.Final/2dffa21967d36cae446b6905bd5fb39750fcba43/netty-common-4.1.34.Final.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/11283f21cc480aa86c4df7a0a3243ec508372ed2/jackson-databind-2.9.8.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/f5a654e4675769c716e5b387830d19b501ca191/jackson-core-2.9.8.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-messaging" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/1.3.21/510f640ddab3074a890450f870e65630cf5e0055/kotlin-scripting-compiler-embeddable-1.3.21.jar" />
+            </array>
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../spring-messaging/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-messaging/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-messaging/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-messaging/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-messaging/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-handler:4.1.34.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-codec-http2:4.1.34.Final" level="project" />
+    <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.3.1" level="project" />
+    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-instrument_test" production-on-test="" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-codec-http:4.1.34.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-handler-proxy:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-oxm_main" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-codec-socks:4.1.34.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-common:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-buffer:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-oxm_test" production-on-test="" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="module" module-name="spring-beans_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-messaging_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.projectreactor.netty:reactor-netty:0.8.5.RELEASE" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-resolver:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.rsocket:rsocket-core:0.11.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-codec:4.1.34.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.34.Final" level="project" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-3.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject-tck:1" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-core:2.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-all:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-kahadb-store:5.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-stomp:5.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-broker:5.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-test:3.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.2.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.rsocket:rsocket-transport-netty:0.11.17" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-dsl-jvm:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-matchers:2.6.2" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-agent-jvm:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.9.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-slf4j-impl:2.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.9.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-jul:2.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-common:1.9.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.xml.bind:jaxb-core:2.3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.xml.bind:jaxb-impl:2.3.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.activation:javax.activation:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-openwire-legacy:5.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-client:5.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq.protobuf:activemq-protobuf:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-net:commons-net:3.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-dsl:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-agent-common:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.mockk:mockk-agent-api:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.fusesource.hawtbuf:hawtbuf:1.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.activation:javax.activation-api:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="spring-messaging_main" />
+</module>

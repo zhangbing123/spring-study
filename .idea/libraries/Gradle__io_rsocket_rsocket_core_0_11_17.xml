@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.rsocket:rsocket-core:0.11.17">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-core/0.11.17/f2400dbba1f49146a226c103e5efeae643b3adce/rsocket-core-0.11.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-core/0.11.17/95f4889aec7626e067f80f1e6aa4ea5c42303592/rsocket-core-0.11.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
