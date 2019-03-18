@@ -27,6 +27,6 @@ public class XmlBeanFactoryZbTest {
 		Resource ROOT_CONTEXT = qualifiedResource(CLASS, "zb.xml");
 		BeanFactory bf = new XmlBeanFactory(ROOT_CONTEXT);
 		User user = (User) bf.getBean("user");
-		System.out.println(user);
+		System.out.println(user.toString());
 	}
 }
