@@ -5,6 +5,7 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryUtilsTests;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.beans.zb.model.User;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 import static org.springframework.tests.TestResourceUtils.qualifiedResource;
@@ -16,17 +17,19 @@ import static org.springframework.tests.TestResourceUtils.qualifiedResource;
  **/
 public class XmlBeanFactoryZbTest {
 
-	private final Class<?> CLASS = BeanFactoryUtilsTests.class;
+	private final Class<?> CLASS = XmlBeanFactoryZbTest.class;
 
 	@Test
-	public void testXmlBeanFactory(){
+	public void testXmlBeanFactory() {
 		/**
 		 * 通过ClassPathResource类把xml配置文件解析为Resource文件
 		 * 通过XmlBeanFactory类把Resource文件转换为BeanFactory
 		 */
 		Resource ROOT_CONTEXT = qualifiedResource(CLASS, "zb.xml");
-		BeanFactory bf = new XmlBeanFactory(ROOT_CONTEXT);
+		//String.format("%s-%s", clazz.getSimpleName(), resourceSuffix)
+		ClassPathResource resource = new ClassPathResource("BeanFactoryTest-zb.xml",CLASS);
+		BeanFactory bf = new XmlBeanFactory(resource);
 		User user = (User) bf.getBean("user");
-		System.out.println(user.toString());
+		System.out.println(user.getName());
 	}
 }

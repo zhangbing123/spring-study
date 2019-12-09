@@ -90,10 +90,11 @@ public class ClassPathResource extends AbstractFileResolvingResource {
 	 * The path can be relative to the given class, or absolute within
 	 * the classpath via a leading slash.
 	 * @param path relative or absolute path within the class path
-	 * @param clazz the class to load resources with
+	 * @param clazz the class to load resources withm.
 	 * @see java.lang.Class#getResourceAsStream
 	 */
-	public ClassPathResource(String path, @Nullable Class<?> clazz) {
+	public  ClassPathResource(String path, @Nullable Class<?> clazz) {
+
 		Assert.notNull(path, "Path must not be null");
 		this.path = StringUtils.cleanPath(path);
 		this.clazz = clazz;

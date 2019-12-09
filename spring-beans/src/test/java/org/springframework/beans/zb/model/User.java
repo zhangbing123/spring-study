@@ -7,7 +7,7 @@ package org.springframework.beans.zb.model;
  **/
 public class User {
 
-	private String name;//姓名
+	private String name = "zhangsan";//姓名
 
 	private int age;//年龄
 
