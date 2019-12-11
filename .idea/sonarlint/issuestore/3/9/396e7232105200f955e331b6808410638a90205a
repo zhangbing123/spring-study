@@ -1,0 +1,8 @@
+
+Bsquid:S1181µ"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+¼%squid:RedundantThrowsDeclarationCheckÇ"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(Ê¬úÅ
+Á%squid:RedundantThrowsDeclarationCheckš"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(ÛÂ­Úÿÿÿÿÿ
+Á%squid:RedundantThrowsDeclarationCheckº"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(Ò’”“ýÿÿÿÿ
+¼%squid:RedundantThrowsDeclarationCheck–"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(çó÷ß
+Á%squid:RedundantThrowsDeclarationCheckù"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(ƒ´­üýÿÿÿÿ
+¼%squid:RedundantThrowsDeclarationCheck†"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(çó÷ß

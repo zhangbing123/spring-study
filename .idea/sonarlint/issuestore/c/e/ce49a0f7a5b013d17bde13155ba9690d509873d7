@@ -1,0 +1,9 @@
+
+¥%squid:RedundantThrowsDeclarationCheckü"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+Vsquid:S1118/":Add a private constructor to hide the implicit public one.(áÕÀôúÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheckÚ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+¥%squid:RedundantThrowsDeclarationCheckŸ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+¥%squid:RedundantThrowsDeclarationCheck¢"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+‚squid:S1192¢"eDefine a constant instead of duplicating this literal "ListableBeanFactory must not be null" 8 times.(­óÏÐøÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheck¹"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(’Ù·’
+¥%squid:RedundantThrowsDeclarationCheckÐ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”

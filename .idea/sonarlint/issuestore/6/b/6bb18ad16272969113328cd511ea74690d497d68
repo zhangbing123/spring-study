@@ -1,0 +1,6 @@
+
+¼%squid:RedundantThrowsDeclarationCheckÇ"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(¨Ðìç
+¼%squid:RedundantThrowsDeclarationCheck‚"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(‘¨™À
+esquid:HiddenFieldCheckÛ"BRename "resourceLoader" which hides the field declared at line 61.(—ŸŽ™
+Á%squid:RedundantThrowsDeclarationCheckÚ"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(™ÄèÄÿÿÿÿÿ
+¼%squid:RedundantThrowsDeclarationCheck½"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(„¨Ÿß

@@ -1,0 +1,4 @@
+
+¼%squid:RedundantThrowsDeclarationCheckJ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(–”ÃŠ
+À%squid:RedundantThrowsDeclarationCheckC"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(˜ç¡–ýÿÿÿÿ
+Á%squid:RedundantThrowsDeclarationCheckR"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(™¬Ç«þÿÿÿÿ

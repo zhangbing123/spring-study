@@ -1,0 +1,8 @@
+description = "Spring Zb"
+
+apply plugin: "groovy"
+
+dependencies {
+	compile(project(":spring-context"))
+	compile(project(":spring-core"))
+}

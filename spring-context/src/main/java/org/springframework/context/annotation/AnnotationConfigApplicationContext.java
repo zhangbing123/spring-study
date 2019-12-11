@@ -63,8 +63,8 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * through {@link #register} calls and then manually {@linkplain #refresh refreshed}.
 	 */
 	public AnnotationConfigApplicationContext() {
-		this.reader = new AnnotatedBeanDefinitionReader(this);
-		this.scanner = new ClassPathBeanDefinitionScanner(this);
+		this.reader = new AnnotatedBeanDefinitionReader(this);//注解bean定义的读取器 在里面注册spring内部的一些组件
+		this.scanner = new ClassPathBeanDefinitionScanner(this);//添加需要扫描的@Component注解类型 其他例如@Service，@Controller等注解底层都是使用@Component
 	}
 
 	/**
@@ -84,7 +84,14 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * e.g. {@link Configuration @Configuration} classes
 	 */
 	public AnnotationConfigApplicationContext(Class<?>... annotatedClasses) {
+		/**
+		 * 1.注册spring内部的一些组件的bean定义，例如ConfigurationClassPostProcessor等
+		 * 2.添加ComponentScan扫描的注解类型 @Component,至于为什么不添加@Service，@Controller等注解类型，因为它们底层使用的都是@Component注解 所以只需要添加基础的就行了
+		 */
 		this();
+		/**
+		 * 注册传入的annotatedClasses的bean定义
+		 */
 		register(annotatedClasses);
 		refresh();
 	}

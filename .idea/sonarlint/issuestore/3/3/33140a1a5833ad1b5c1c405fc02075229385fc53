@@ -1,0 +1,11 @@
+
+Bsquid:S1181‘"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+µ%squid:RedundantThrowsDeclarationCheck¢"‚Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanCreationException' which is a runtime exception.(†ÂÙ›
+nsquid:S3776d"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ÄÈùˆúÿÿÿÿ
+Bsquid:S1181¶"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+=squid:S1452Û"&Remove usage of generic wildcard type.(¬¯ò~
+¤%squid:RedundantThrowsDeclarationCheckÛ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(¬¯ò~
+ª%squid:RedundantThrowsDeclarationCheckÐ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(½„Üâúÿÿÿÿ
+Asquid:S1181G"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Asquid:S1181{"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Rsquid:S1141¨"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ

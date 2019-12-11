@@ -54,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm.iml" group="spring-oxm" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm_main.iml" group="spring-oxm" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm_test.iml" group="spring-oxm" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-study‘/spring-study‘.iml" filepath="$PROJECT_DIR$/../spring-study‘/spring-study‘.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-test/spring-test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test.iml" group="spring-test" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-test/spring-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test_main.iml" group="spring-test" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-test/spring-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test_test.iml" group="spring-test" />
@@ -72,6 +73,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket.iml" group="spring-websocket" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_main.iml" group="spring-websocket" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_test.iml" group="spring-websocket" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zb/spring-zb.iml" filepath="$PROJECT_DIR$/spring-zb/spring-zb.iml" group="spring-zb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_main.iml" group="spring-zb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_test.iml" group="spring-zb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_main.iml" group="spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_test.iml" group="spring" />
     </modules>

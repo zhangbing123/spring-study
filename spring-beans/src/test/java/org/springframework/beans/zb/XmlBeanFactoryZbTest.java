@@ -2,7 +2,6 @@ package org.springframework.beans.zb;
 
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.BeanFactoryUtilsTests;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.beans.zb.model.User;
 import org.springframework.core.io.ClassPathResource;

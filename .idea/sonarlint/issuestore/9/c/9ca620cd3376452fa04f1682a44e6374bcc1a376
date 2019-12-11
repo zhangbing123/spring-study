@@ -1,0 +1,11 @@
+
+osquid:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.( Š“Éøÿÿÿÿ
+osquid:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(èß­úÿÿÿÿ
+osquid:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Íßé®ûÿÿÿÿ
+osquid:S3776¡"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(«ùãîüÿÿÿÿ
+Bsquid:S1181´"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Bsquid:S1181Õ"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Bsquid:S1181"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Bsquid:S1181«"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Bsquid:S1181ü"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Fsquid:S1948µ")Make "imports" transient or serializable.(¸á•Çùÿÿÿÿ

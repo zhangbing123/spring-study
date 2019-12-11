@@ -1,0 +1,6 @@
+
+Â%squid:RedundantThrowsDeclarationCheckÌ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(êü±¤ýÿÿÿÿ
+¼%squid:RedundantThrowsDeclarationCheck·"‰Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanDefinitionStoreException' which is a runtime exception.(´¦‚—
+Â%squid:RedundantThrowsDeclarationCheckÖ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(ˆâîòÿÿÿÿÿ
+ %squid:RedundantThrowsDeclarationCheckR"jRemove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.(ó¦Àüÿÿÿÿ
+>squid:S12148""Move constants to a class or enum.(é€Ê±þÿÿÿÿ
