@@ -1,5 +1,5 @@
 
+ª%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(μιϊώÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheckΣ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(β‹ώ‹
 Β%squid:RedundantThrowsDeclarationCheck"Remove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(½χΙγύÿÿÿÿ
 ¥%squid:RedundantThrowsDeclarationCheckχ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(Ρ‰ύ
-¥%squid:RedundantThrowsDeclarationCheckΣ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(β‹ώ‹
-ª%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(μιϊώÿÿÿÿ

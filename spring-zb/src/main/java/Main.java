@@ -10,6 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext configApplicationContext = new AnnotationConfigApplicationContext(Config.class);
 		String[] beanDefinitionNames = configApplicationContext.getBeanDefinitionNames();
+		configApplicationContext.getBean("carDao");
 		System.out.println(beanDefinitionNames);
 		configApplicationContext.close();
 	}
