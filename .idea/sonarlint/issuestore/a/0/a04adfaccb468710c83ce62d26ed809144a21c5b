@@ -1,5 +1,5 @@
 
 Rsquid:S1141­"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-jsquid:S3776õ"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‚»˜«
 jsquid:S3776 "RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(º”˜›
 Bsquid:S1181Å"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+jsquid:S3776õ"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‚»˜«

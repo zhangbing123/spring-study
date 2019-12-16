@@ -305,7 +305,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 					return (T) parentBeanFactory.getBean(nameToLookup);
 				}
 			}
-			//如果不仅仅做类型检查 而是需要创建bean 这里需要做记录
+			//如果不仅仅做类型检查 而是需要创建bean 这里需要做记录 记录到alreadyCreated的set集合中
 			if (!typeCheckOnly) {
 				markBeanAsCreated(beanName);
 			}
