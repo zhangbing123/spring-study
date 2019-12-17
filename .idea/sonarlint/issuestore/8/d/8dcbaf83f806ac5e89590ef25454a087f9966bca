@@ -1,7 +1,7 @@
 
-osquid:S3776Α"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ΐ›ίƒωÿÿÿÿ
 ›%squid:RedundantThrowsDeclarationCheck}"jRemove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.(ψ°ή
+ksquid:S3824Δ"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ςÿή©ψÿÿÿÿ
+osquid:S3776Α"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ΐ›ίƒωÿÿÿÿ
 Bsquid:S1181Φ"%Catch Exception instead of Throwable.(ΊΉατÿÿÿÿÿ
 jsquid:S3776ή"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(­½§£
-ksquid:S3824Δ"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ςÿή©ψÿÿÿÿ
 rsquid:S1192~"[Define a constant instead of duplicating this literal "Bean name must not be null" 4 times.(·΅Ό

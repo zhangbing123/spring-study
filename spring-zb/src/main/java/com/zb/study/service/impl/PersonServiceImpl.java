@@ -14,16 +14,16 @@ import org.springframework.stereotype.Service;
 @Service
 public class PersonServiceImpl implements PersonService {
 
-	@Autowired
+//	@Autowired
 	private CarService carService;
 
-//	public PersonServiceImpl(CarService carService) {
-//		this.carService = carService;
-//		System.out.println("这是一个PersonServiceImpl的构造方法");
-//	}
-	public PersonServiceImpl() {
+	public PersonServiceImpl(CarService carService) {
+		this.carService = carService;
 		System.out.println("这是一个PersonServiceImpl的构造方法");
 	}
+//	public PersonServiceImpl() {
+//		System.out.println("这是一个PersonServiceImpl的构造方法");
+//	}
 
 	@Override
 	public Person getPerson() {
