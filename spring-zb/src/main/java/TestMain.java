@@ -1,3 +1,4 @@
+import com.zb.study.service.CarService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -5,13 +6,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author: zhangbing
  * @create: 2019-12-10 11:58
  **/
-public class Main {
+public class TestMain {
 
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext configApplicationContext = new AnnotationConfigApplicationContext(Config.class);
 		String[] beanDefinitionNames = configApplicationContext.getBeanDefinitionNames();
-		Object carDao = configApplicationContext.getBean("carDao");
-		System.out.println(carDao);
+		CarService carService = (CarService) configApplicationContext.getBean("carServiceImpl");
+		carService.getCar("奔驰");
 		configApplicationContext.close();
+
 	}
 }

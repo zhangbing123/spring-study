@@ -1,4 +1,6 @@
 
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÈÓÖ¸ıÿÿÿÿ8ÁàŸêğ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(â£´÷8âÁÖêğ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÈÓÖ¸ıÿÿÿÿ8™Ä¿—ñ-
+usquid:UselessImportCheck"ERemove this unused import 'org.springframework.beans.BeansException'.(Æ¢ùìüÿÿÿÿ8›Şñ-
+squid:UselessImportCheck"WRemove this unused import 'org.springframework.beans.factory.config.BeanPostProcessor'.(âŠÍr8™èŞñ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(â£´÷8ğ¦Å—ñ-

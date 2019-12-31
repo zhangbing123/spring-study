@@ -1,5 +1,6 @@
 package com.zb.study.config;
 
+import com.zb.study.dao.CarDao;
 import com.zb.study.dao.PersonDao;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +16,11 @@ public class DaoConfig {
 	@Bean(initMethod = "initPerson")
 	public PersonDao personDao(){
 		return new PersonDao();
+	}
+
+	@Bean
+	public CarDao carDao() {
+		return new CarDao();
 	}
 
 }

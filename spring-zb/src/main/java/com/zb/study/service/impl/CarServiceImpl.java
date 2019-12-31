@@ -33,6 +33,7 @@ public class CarServiceImpl implements CarService {
 		Car car = new Car();
 		car.setName(name);
 		car.setColor("red");
+		System.out.println("正在调用....");
 		return car;
 	}
 }

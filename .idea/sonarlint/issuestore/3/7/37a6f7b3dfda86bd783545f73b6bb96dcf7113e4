@@ -1,12 +1,12 @@
 
 Â%squid:RedundantThrowsDeclarationCheckÕ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(é«Åúÿÿÿÿ
-9squid:S1214x""Move constants to a class or enum.(´²¥—
-Â%squid:RedundantThrowsDeclarationCheck"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(¯ªíÒÿÿÿÿÿ
 ¥%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(’Ê—å
 ¥%squid:RedundantThrowsDeclarationCheck°"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(¬ßÀ•
-Â%squid:RedundantThrowsDeclarationCheckÄ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(Â¯¥Áıÿÿÿÿ
+Â%squid:RedundantThrowsDeclarationCheck"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(¯ªíÒÿÿÿÿÿ
 ½%squid:RedundantThrowsDeclarationCheck³"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(ø‹¿ƒ
-¥%squid:RedundantThrowsDeclarationCheckÔ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(Å¡ß
+Â%squid:RedundantThrowsDeclarationCheckÄ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(Â¯¥Áıÿÿÿÿ
 ¥%squid:RedundantThrowsDeclarationCheck "sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(»ûŒ™
 ª%squid:RedundantThrowsDeclarationCheckÀ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(ÆÔ¢ şÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheckÔ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(Å¡ß
 ½%squid:RedundantThrowsDeclarationCheck¢"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(ÆÉ³‘
+9squid:S1214x""Move constants to a class or enum.(´²¥—
