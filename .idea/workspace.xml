@@ -2,89 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="823af5e2-33f4-4bc2-9835-b8cb32300cea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-zb/src/main/java/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/aspect/CarAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/buildSrc/spring-build-src_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/buildSrc/spring-build-src_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-aop/spring-aop_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-aop/spring-aop_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-aspects/spring-aspects_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-aspects/spring-aspects_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-aspects/spring-aspects_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-aspects/spring-aspects_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-beans/spring-beans_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-beans/spring-beans_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-beans/spring-beans_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-beans/spring-beans_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-context-indexer/spring-context-indexer_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-context-indexer/spring-context-indexer_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-context-support/spring-context-support_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-context-support/spring-context-support_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-context-support/spring-context-support_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-context-support/spring-context-support_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-context/spring-context_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-context/spring-context_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-context/spring-context_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-context/spring-context_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-core/spring-core_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-core/spring-core_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-core/spring-core_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-core/spring-core_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-jdbc/spring-jdbc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-jdbc/spring-jdbc_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-jdbc/spring-jdbc_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-jdbc/spring-jdbc_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-jms/spring-jms_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-jms/spring-jms_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-jms/spring-jms_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-jms/spring-jms_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-oxm/spring-oxm_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-test/spring-test_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-tx/spring-tx_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-tx/spring-tx_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-tx/spring-tx_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-tx/spring-tx_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-web/spring-web_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-web/spring-web_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-web/spring-web_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-web/spring-web_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-webflux/spring-webflux_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-webflux/spring-webflux_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-webflux/spring-webflux_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-webflux/spring-webflux_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-webmvc/spring-webmvc_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-webmvc/spring-webmvc_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-webmvc/spring-webmvc_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-webmvc/spring-webmvc_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-websocket/spring-websocket_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-zb/spring-zb_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ed001bcd52f3a8fc8204817e551ec2d99c72cb4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33b8ed7b66ab94daffc8b27487f075c1c085fab6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33b8ed7b66ab94daffc8b27487f075c1c085fab6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37a6f7b3dfda86bd783545f73b6bb96dcf7113e4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37a6f7b3dfda86bd783545f73b6bb96dcf7113e4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52c19e6e21f66de22f3c89c503ec85ffb4052cee" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52c19e6e21f66de22f3c89c503ec85ffb4052cee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7017f2bd1021b3a5cc677467d14f0354f4d8e6c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7017f2bd1021b3a5cc677467d14f0354f4d8e6c2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76bbac59d266217334bde419bf72781fb0642b45" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76bbac59d266217334bde419bf72781fb0642b45" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f25315b14e53e7d4d512b013e84685e3daaeaf3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f25315b14e53e7d4d512b013e84685e3daaeaf3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85620e82f68da9fe32f3f60943da168b571c9306" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85620e82f68da9fe32f3f60943da168b571c9306" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8dcbaf83f806ac5e89590ef25454a087f9966bca" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8dcbaf83f806ac5e89590ef25454a087f9966bca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b25323d0bf219212a9cbc26ada6580cf14b99ca1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b25323d0bf219212a9cbc26ada6580cf14b99ca1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be99a0c211cf7c91a26dadbeee0a6413d6b68f95" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be99a0c211cf7c91a26dadbeee0a6413d6b68f95" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e36c22cf9a160dee2d5b6903a85fb90771934c4b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e36c22cf9a160dee2d5b6903a85fb90771934c4b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc85241c23818dba93aa93d22b0d4bb319908563" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc85241c23818dba93aa93d22b0d4bb319908563" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/cache/aspectj/AspectJCachingConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/cache/aspectj/AspectJCachingConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/cache/aspectj/AspectJJCacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/cache/aspectj/AspectJJCacheConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/context/annotation/aspectj/EnableSpringConfigured.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/context/annotation/aspectj/EnableSpringConfigured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/context/annotation/aspectj/SpringConfiguredConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/context/annotation/aspectj/SpringConfiguredConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/scheduling/aspectj/AspectJAsyncConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/scheduling/aspectj/AspectJAsyncConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJTransactionManagementConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJTransactionManagementConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver$ArgumentsHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver$ArgumentsHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver$AutowiredArgumentMarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver$AutowiredArgumentMarker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver$ConstructorPropertiesChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver$ConstructorPropertiesChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/ConstructorResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/out/production/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/out/production/classes/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/out/production/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/out/production/classes/com/zb/study/dao/CarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/out/production/classes/com/zb/study/dao/CarDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/out/production/classes/com/zb/study/service/impl/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/out/production/classes/com/zb/study/service/impl/CarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/spring-zb.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/spring-zb.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-zb/out/production/classes/com/zb/study/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/out/production/classes/com/zb/study/entity/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/config/DaoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/config/DaoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/dao/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/dao/CarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/service/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/service/impl/CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/service/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/service/impl/PersonServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -269,16 +189,16 @@
         <counts>
           <entry key="dummy" value="12" />
           <entry key="gradle" value="60" />
-          <entry key="java" value="4470" />
-          <entry key="txt" value="52" />
+          <entry key="java" value="4471" />
+          <entry key="txt" value="67" />
           <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="60" />
-          <entry key="JAVA" value="4470" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="JAVA" value="4471" />
+          <entry key="PLAIN_TEXT" value="79" />
           <entry key="XML" value="30" />
         </counts>
       </usages-collector>
@@ -290,7 +210,7 @@
           <entry key="editorconfig" value="1" />
           <entry key="gradle" value="32" />
           <entry key="iml" value="5" />
-          <entry key="java" value="561" />
+          <entry key="java" value="562" />
           <entry key="md" value="1" />
           <entry key="name" value="1" />
           <entry key="properties" value="1" />
@@ -306,7 +226,7 @@
           <entry key="Eclipse" value="2" />
           <entry key="Groovy" value="32" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="561" />
+          <entry key="JAVA" value="562" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
@@ -360,24 +280,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/dao/PersonDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="43" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="417">
+              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -385,11 +292,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/DisposableBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/entity/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -397,8 +313,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/aspect/CarAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            <state relative-caret-position="303">
+              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -8304,12 +8220,12 @@
         <option value="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-aspects/src/main/java/org/springframework/transaction/aspectj/AspectJTransactionManagementConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-zb/src/main/java/TestMain.java" />
-        <option value="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java" />
         <option value="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/dao/CarDao.java" />
         <option value="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/config/DaoConfig.java" />
         <option value="$PROJECT_DIR$/spring-zb/src/main/java/Config.java" />
         <option value="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/aspect/CarAspect.java" />
         <option value="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/entity/Car.java" />
+        <option value="$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java" />
       </list>
     </option>
   </component>
@@ -8343,138 +8259,6 @@
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-aspects" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-aspects" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-aspects" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-aspects" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-aspects" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-aspects" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -8520,6 +8304,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -8598,7 +8392,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577787876956" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577788134615" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ross-wf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -8739,7 +8533,7 @@
       <workItem from="1576224226670" duration="10256000" />
       <workItem from="1576462590355" duration="7610000" />
       <workItem from="1576548972055" duration="14963000" />
-      <workItem from="1577778303783" duration="9142000" />
+      <workItem from="1577778303783" duration="9413000" />
     </task>
     <task id="LOCAL-00001" summary="添加相关类的注解">
       <created>1552800593028</created>
@@ -8790,7 +8584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576572473242</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="研究spring aop">
+      <created>1577787892492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577787892493</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -8826,13 +8627,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125765000" />
+    <option name="totallyTimeSpent" value="126036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8782344" visible="true" weight="0.24093817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8782344" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" sideWeight="0.1217656" side_tool="true" visible="true" weight="0.24093817" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -8841,7 +8642,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28664497" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28664497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38762215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -8925,7 +8726,8 @@
     <MESSAGE value="添加XmlBeanFactory功能类的注解" />
     <MESSAGE value="学习注解" />
     <MESSAGE value="spring bean声明周期的探索" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring bean声明周期的探索" />
+    <MESSAGE value="研究spring aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="研究spring aop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -9046,13 +8848,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.2/7aa564f5753105f884c50bc84ffa49a282c10a00/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/annotation/Before.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/service/CarService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -9341,16 +9136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/service/impl/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -9358,13 +9143,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/dao/CarDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -9407,20 +9185,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/aspect/CarAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        <state relative-caret-position="303">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/entity/Car.java">
+    <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/dao/CarDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/DisposableBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zb/src/main/java/com/zb/study/component/ZbComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

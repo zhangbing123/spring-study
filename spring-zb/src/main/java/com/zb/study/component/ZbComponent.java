@@ -33,7 +33,7 @@ public class ZbComponent implements BeanNameAware, BeanPostProcessor, Disposable
 
 	@Override
 	public void destroy() throws Exception {
-		System.out.println("销毁bean：carDao");
+		System.out.println("销毁bean:ZbComponent");
 	}
 
 }
