@@ -44,9 +44,15 @@ public class BeanFactoryAspectJAdvisorsBuilder {
 
 	private final AspectJAdvisorFactory advisorFactory;
 
+	/**
+	 * 所有切面的beanName
+	 */
 	@Nullable
 	private volatile List<String> aspectBeanNames;
 
+	/**
+	 * 每个切面的通知器 List<Advisor>
+	 */
 	private final Map<String, List<Advisor>> advisorsCache = new ConcurrentHashMap<>();
 
 	private final Map<String, MetadataAwareAspectInstanceFactory> aspectFactoryCache = new ConcurrentHashMap<>();
