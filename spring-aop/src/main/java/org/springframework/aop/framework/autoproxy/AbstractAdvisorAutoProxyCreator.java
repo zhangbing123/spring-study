@@ -81,6 +81,7 @@ public abstract class AbstractAdvisorAutoProxyCreator extends AbstractAutoProxyC
 	}
 
 	/**
+	 * 找到所有符合条件的增强器来自动代理这个类。
 	 * Find all eligible Advisors for auto-proxying this class.
 	 * @param beanClass the clazz to find advisors for
 	 * @param beanName the name of the currently proxied bean

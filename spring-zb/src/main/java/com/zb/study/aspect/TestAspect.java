@@ -11,9 +11,9 @@ import org.springframework.stereotype.Component;
  **/
 @Aspect
 @Component
-public class CarAspect {
+public class TestAspect {
 
-	@Pointcut("execution(* com.zb.study.service.impl.CarServiceImpl..*(..))")
+	@Pointcut("execution(* com.zb.study.service.impl.*..*(..))")
 	public void pointCut(){}
 
 

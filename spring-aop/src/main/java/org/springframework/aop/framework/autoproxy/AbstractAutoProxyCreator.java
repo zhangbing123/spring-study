@@ -343,7 +343,7 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 			return bean;
 		}
 
-		// Create proxy if we have advice.
+		// 找到所有可以应用在Bean上的Advices通知器
 		Object[] specificInterceptors = getAdvicesAndAdvisorsForBean(bean.getClass(), beanName, null);
 		if (specificInterceptors != DO_NOT_PROXY) {
 			this.advisedBeans.put(cacheKey, Boolean.TRUE);

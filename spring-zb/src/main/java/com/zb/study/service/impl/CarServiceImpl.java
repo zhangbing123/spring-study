@@ -16,8 +16,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class CarServiceImpl implements CarService {
 
-	@Autowired
-	private PersonService personService;
+//	@Autowired
+//	private PersonService personService;
 
 //	public CarServiceImpl(PersonService personService) {
 //		this.personService = personService;
