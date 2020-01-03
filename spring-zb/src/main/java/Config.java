@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * @Author: wangzx
  * @CreateDate: 2019/12/9 14:48
  */
-@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy //底层是@Import注解
 @ComponentScan(basePackages = {"com.zb.study"})
 @Configuration
 public class Config {
