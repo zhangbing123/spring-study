@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class DaoConfig {
 
 	@Bean(initMethod = "initPerson")
-	public PersonDao personDao(){
+	public PersonDao personDao() {
 		return new PersonDao();
 	}
 

@@ -20,25 +20,25 @@ public class TestAspect {
 	@Before(value = "pointCut()")
 	public void before(JoinPoint joinPoint){
 		String name = joinPoint.getSignature().getName();
-		System.out.println(name+"方法调用之前");
+		System.out.println(name+"方法前置通知");
 	}
 
 	@After(value = "pointCut()")
 	public void after(JoinPoint joinPoint){
 		String name = joinPoint.getSignature().getName();
-		System.out.println(name+"方法调用之后");
+		System.out.println(name+"方法后置通知");
 	}
 
 	@AfterReturning(value = "execution(* com.zb.study.service.impl.CarServiceImpl..*(..))",returning = "val")
 	public void afterReturning(JoinPoint joinPoint,Object val){
 		String name = joinPoint.getSignature().getName();
-		System.out.println(name+"方法返回："+val.toString());
+		System.out.println(name+"方法返回通知："+val.toString());
 	}
 
 	@AfterThrowing(value = "pointCut()")
 	public void afterThrowing(JoinPoint joinPoint){
 		String name = joinPoint.getSignature().getName();
-		System.out.println(name+"方法调用异常");
+		System.out.println(name+"方法调用异常通知");
 	}
 
 }

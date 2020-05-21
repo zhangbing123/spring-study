@@ -303,7 +303,7 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 			this.environment = new StandardEnvironment();
 		}
 
-		// Parse each @Configuration class 解析每个@Configuration类
+		// Parse each @Configuration class 解析每个配置类
 		ConfigurationClassParser parser = new ConfigurationClassParser(
 				this.metadataReaderFactory, this.problemReporter, this.environment,
 				this.resourceLoader, this.componentScanBeanNameGenerator, registry);
@@ -313,7 +313,9 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 		do {
 			parser.parse(candidates);//解析 自定义的配置类
 			parser.validate();
-			//获取自定义的bean
+			/**
+			 * 获取项目中所有标注@Commpent @Service @Controller @Import @Configuration @Bean等注解的类定义
+			 */
 			Set<ConfigurationClass> configClasses = new LinkedHashSet<>(parser.getConfigurationClasses());
 			configClasses.removeAll(alreadyParsed);
 

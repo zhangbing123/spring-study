@@ -7,12 +7,11 @@ package com.zb.study.entity;
  */
 public class Car {
 
-    public Car() {
-        System.out.println("car构造方法");
-    }
+	public Car() {
+	}
 
-    private String name;
-    private String color;
+	private String name;
+	private String color;
 
 	public String getName() {
 		return name;

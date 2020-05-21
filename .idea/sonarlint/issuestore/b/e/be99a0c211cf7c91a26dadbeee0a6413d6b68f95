@@ -1,17 +1,17 @@
 
 Qsquid:S1133c"5Do not forget to remove this deprecated code someday.(„¥§¡úÿÿÿÿ
-dsquid:CallToDeprecatedMethod®";Remove this use of "AUTOWIRE_AUTODETECT"; it is deprecated.(˜½ä¨
-Jsquid:S1948§"2Make "instanceSupplier" transient or serializable.(÷¤í²
-`squid:S1182Ú"HUse super.clone() to create and seed the cloned instance to be returned.(²ÈŞ
->squid:S1452Ì"&Remove usage of generic wildcard type.(’™î
 hsquid:CallToDeprecatedMethodc";Remove this use of "AUTOWIRE_AUTODETECT"; it is deprecated.(„¥§¡úÿÿÿÿ
 jsquid:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ûƒéï
 Gsquid:S1948Î"*Make "resource" transient or serializable.(åô–ôıÿÿÿÿ
-ksquid:S2975Ú"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ
+œ%squid:RedundantThrowsDeclarationCheck—"jRemove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.(¯‹Ÿæ
 Î%squid:RedundantThrowsDeclarationCheckÆ"–Remove the declaration of thrown exception 'org.springframework.beans.factory.support.BeanDefinitionValidationException' which is a runtime exception.(°Œÿãøÿÿÿÿ
 É%squid:RedundantThrowsDeclarationCheck¢"–Remove the declaration of thrown exception 'org.springframework.beans.factory.support.BeanDefinitionValidationException' which is a runtime exception.(®¾ê®
-œ%squid:RedundantThrowsDeclarationCheck—"jRemove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.(¯‹Ÿæ
 Nsquid:S1948º"1Make "methodOverrides" transient or serializable.(»êş‹ıÿÿÿÿ
+dsquid:CallToDeprecatedMethod®";Remove this use of "AUTOWIRE_AUTODETECT"; it is deprecated.(˜½ä¨
+>squid:S1452Ì"&Remove usage of generic wildcard type.(’™î
 Csquid:S1948"+Make "beanClass" transient or serializable.(¸­İá
+Jsquid:S1948§"2Make "instanceSupplier" transient or serializable.(÷¤í²
 Rsquid:S1948´";Make "constructorArgumentValues" transient or serializable.(ˆİ³1
+`squid:S1182Ú"HUse super.clone() to create and seed the cloned instance to be returned.(²ÈŞ
 Î%squid:RedundantThrowsDeclarationCheck³"–Remove the declaration of thrown exception 'org.springframework.beans.factory.support.BeanDefinitionValidationException' which is a runtime exception.(è¦ßÇşÿÿÿÿ
+ksquid:S2975Ú"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ

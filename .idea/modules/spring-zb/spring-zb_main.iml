@@ -38,6 +38,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-tx_main" />
     <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-expression_main" />

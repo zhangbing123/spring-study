@@ -529,6 +529,9 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 				postProcessBeanFactory(beanFactory);
 
 				// Invoke factory processors registered as beans in the context.
+				/**
+				 * 找出ConfigurationClassPostProcessor类 并执行其postProcessBeanDefinitionRegistry()方法  筛选自定义的配置类
+				 */
 				invokeBeanFactoryPostProcessors(beanFactory);
 
 				// Register bean processors that intercept bean creation.

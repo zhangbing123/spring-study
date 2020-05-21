@@ -1,34 +1,35 @@
 
-ª%squid:RedundantThrowsDeclarationCheckÆ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(ŒàÄıüÿÿÿÿ
-qsquid:S3776®"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ï «Ï8–Âóñ-
-osquid:S3776Å"RRefactor this method to reduce its Cognitive Complexity from 86 to the 15 allowed.(Ïë©ÿûÿÿÿÿ
-ª%squid:RedundantThrowsDeclarationCheck‘"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(Ñƒ’¸ùÿÿÿÿ
-Bsquid:S1181¿"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
-¥%squid:RedundantThrowsDeclarationCheck "sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
-Bsquid:S1181”"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
-Bsquid:S1181¥
-"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
-osquid:CallToDeprecatedMethod˜"ARemove this use of "postProcessPropertyValues"; it is deprecated.(¶¶Ú†ûÿÿÿÿ
-jsquid:S3776ò"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(ŠœÉ‚
-¥%squid:RedundantThrowsDeclarationCheckÓ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(şŠ²–
-osquid:S3776Ø
-"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(ª‹‘áøÿÿÿÿ
-jsquid:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(÷½§É
-osquid:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(±ÄĞƒùÿÿÿÿ
-¥%squid:RedundantThrowsDeclarationCheck‚"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
-µ%squid:RedundantThrowsDeclarationCheckã"‚Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanCreationException' which is a runtime exception.(†ÂÙ›
-lsquid:HiddenFieldCheckì	"IRename "currentlyCreatedBean" which hides the field declared at line 161.(îø¹Ì
-ksquid:S00112Ø"FDefine and throw a dedicated exception instead of using a generic one.(ç¼ëŞüÿÿÿÿ8–Âóñ-
-¾%squid:RedundantThrowsDeclarationCheckØ"‹Remove the declaration of thrown exception 'org.springframework.beans.factory.UnsatisfiedDependencyException' which is a runtime exception.(Û®Â´
-¥%squid:RedundantThrowsDeclarationChecká"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(†ûÂ
+ksquid:S00112Ù"FDefine and throw a dedicated exception instead of using a generic one.(ç¼ëŞüÿÿÿÿ8–Âóñ-
 ¥%squid:RedundantThrowsDeclarationCheck²"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(ã¯²Š
-]squid:S1193Ú"@Replace the usage of the "instanceof" operator by a catch block.(ßÌ¦şÿÿÿÿ
-Bsquid:S1181ƒ"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
-Bsquid:S1181Ù"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
-¤%squid:RedundantThrowsDeclarationChecké"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(£“Ûu
-Csquid:S1452ş	"&Remove usage of generic wildcard type.(è®šÖüÿÿÿÿ
+Csquid:S1452ÿ	"&Remove usage of generic wildcard type.(è®šÖüÿÿÿÿ
+Bsquid:S1181„"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
 ¥%squid:RedundantThrowsDeclarationCheck¯"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
-jsquid:S3776Ø"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ëšˆ
-µ%squid:RedundantThrowsDeclarationCheck©"‚Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanCreationException' which is a runtime exception.(†ÂÙ›
-Bsquid:S1181’"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
-¥%squid:RedundantThrowsDeclarationCheckÿ	"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+osquid:S3776Ù
+"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(ª‹‘áøÿÿÿÿ
+]squid:S1193Û"@Replace the usage of the "instanceof" operator by a catch block.(ßÌ¦şÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationChecké"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(£“Ûu
+ª%squid:RedundantThrowsDeclarationCheck‘"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(Ñƒ’¸ùÿÿÿÿ
+jsquid:S3776Ù"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ëšˆ
+osquid:CallToDeprecatedMethod™"ARemove this use of "postProcessPropertyValues"; it is deprecated.(¶¶Ú†ûÿÿÿÿ
+ª%squid:RedundantThrowsDeclarationCheckÆ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(ŒàÄıüÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheck‚"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+¥%squid:RedundantThrowsDeclarationCheck "sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+µ%squid:RedundantThrowsDeclarationCheckã"‚Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanCreationException' which is a runtime exception.(†ÂÙ›
+Bsquid:S1181À"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Bsquid:S1181Ú"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+Bsquid:S1181“"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+osquid:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(±ÄĞƒùÿÿÿÿ
+µ%squid:RedundantThrowsDeclarationCheckª"‚Remove the declaration of thrown exception 'org.springframework.beans.factory.BeanCreationException' which is a runtime exception.(†ÂÙ›
+¥%squid:RedundantThrowsDeclarationChecká"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(†ûÂ
+Bsquid:S1181•"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+qsquid:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ï «Ï8–Âóñ-
+¥%squid:RedundantThrowsDeclarationCheck€
+"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(çÜ³”
+osquid:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 86 to the 15 allowed.(Ïë©ÿûÿÿÿÿ
+jsquid:S3776©"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(÷½§É
+Bsquid:S1181¦
+"%Catch Exception instead of Throwable.(º¹áôÿÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheckÓ"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(şŠ²–
+¾%squid:RedundantThrowsDeclarationCheckÙ"‹Remove the declaration of thrown exception 'org.springframework.beans.factory.UnsatisfiedDependencyException' which is a runtime exception.(Û®Â´
+jsquid:S3776ó"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(ŠœÉ‚
+lsquid:HiddenFieldCheckí	"IRename "currentlyCreatedBean" which hides the field declared at line 161.(îø¹Ì
