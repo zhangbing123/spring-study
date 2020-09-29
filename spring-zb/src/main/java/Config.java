@@ -4,7 +4,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @Description: java类作用描述
- * @Author: wangzx
+ * @Author: zhangbing
  * @CreateDate: 2019/12/9 14:48
  */
 @EnableTransactionManagement

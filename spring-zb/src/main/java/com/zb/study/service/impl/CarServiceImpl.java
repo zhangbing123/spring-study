@@ -3,10 +3,9 @@ package com.zb.study.service.impl;
 import com.zb.study.entity.Car;
 import com.zb.study.service.CarService;
 import com.zb.study.service.PersonService;
-import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @description:
@@ -19,14 +18,20 @@ public class CarServiceImpl implements CarService {
 	@Autowired
 	private PersonService personService;
 
+
 //	public CarServiceImpl(PersonService personService) {
 //		this.personService = personService;
 //		System.out.println("这是CarServiceImpl的构造方法");
 //	}
 
+//	public void setPersonService(PersonService personService) {
+//		this.personService = personService;
+//	}
+
 	public CarServiceImpl() {
 		System.out.println("这是CarServiceImpl的构造方法");
 	}
+
 
 	@Override
 	public Car getCar(String name) {

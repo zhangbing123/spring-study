@@ -272,11 +272,9 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
 		else {
 			/**
-			 * 	只有在单例情况下才会尝试解决循环依赖，原型模式情况下，如果存在
-			 * 	A中有B属性，B中有A属性，那么当依赖注入的时候就会产生当A还未创建完时，因为对于B的创建再次返回创建A,造成循环依赖
-			 * 	也就是当isPrototypeCurrentlyInCreation(beanName)=true时
+			 * 	如果不是单例的bean，spring不会解决多例Bean的循环依赖
  			 */
-			if (isPrototypeCurrentlyInCreation(beanName)) { //造成循环依赖 抛出异常
+			if (isPrototypeCurrentlyInCreation(beanName)) {
 				throw new BeanCurrentlyInCreationException(beanName);
 			}
 
@@ -305,8 +303,8 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 					return (T) parentBeanFactory.getBean(nameToLookup);
 				}
 			}
-			//如果不仅仅做类型检查 而是需要创建bean 这里需要做记录 记录到alreadyCreated的set集合中
-			if (!typeCheckOnly) {
+
+			if (!typeCheckOnly) {//不仅仅做类型检查 还需要创建Bean 标记一下
 				markBeanAsCreated(beanName);
 			}
 
