@@ -128,7 +128,18 @@ final class PostProcessorRegistrationDelegate {
 			}
 
 			// Now, invoke the postProcessBeanFactory callback of all processors handled so far.
+			/**
+			 * 上面调用的是实现BeanDefinitionRegisterPostProcessor的postProcessBeanDefinitionRegistry方法
+			 * 这里调用的是BeanDefinitionRegisterPostProcessor父类BeanFactoryPostProcessors的postProcessBeanFactory方法
+			 */
 			invokeBeanFactoryPostProcessors(registryProcessors, beanFactory);
+
+			/**
+			 * 这里调用的是自定义的BeanFactoryPostProcessors
+			 * 也就是自己通过addBeanFactoryPostProcessor方法自己向里面添加的BeanFactoryPostProcessor
+			 *
+			 * 一般regularPostProcessors这个是空的
+			 */
 			invokeBeanFactoryPostProcessors(regularPostProcessors, beanFactory);
 		}
 
