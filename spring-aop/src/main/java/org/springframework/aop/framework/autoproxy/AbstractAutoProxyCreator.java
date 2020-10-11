@@ -314,7 +314,7 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 	 * @param beanName the bean name
 	 * @return the cache key for the given class and name
 	 */
-	protected Object getCacheKey(Class<?> beanClass, @Nullable String beanName) {
+	protected Object  getCacheKey(Class<?> beanClass, @Nullable String beanName) {
 		if (StringUtils.hasLength(beanName)) {
 			return (FactoryBean.class.isAssignableFrom(beanClass) ?
 					BeanFactory.FACTORY_BEAN_PREFIX + beanName : beanName);
@@ -343,10 +343,11 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 			return bean;
 		}
 
-		// 找到所有可以应用在Bean上的Advices通知器
+		//找到所有可以应用在Bean上的Advices通知器 如果循环依赖且bean被切面切入 或者开启事务(也是依赖aop) 匹配是否被切入
 		Object[] specificInterceptors = getAdvicesAndAdvisorsForBean(bean.getClass(), beanName, null);
 		if (specificInterceptors != DO_NOT_PROXY) {
 			this.advisedBeans.put(cacheKey, Boolean.TRUE);
+			//匹配成功 创建动态代理
 			Object proxy = createProxy(
 					bean.getClass(), beanName, specificInterceptors, new SingletonTargetSource(bean));
 			this.proxyTypes.put(cacheKey, proxy.getClass());
