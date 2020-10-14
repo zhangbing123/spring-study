@@ -4,9 +4,7 @@ import com.zb.study.entity.Car;
 import com.zb.study.service.CarService;
 import com.zb.study.service.PersonService;
 import org.springframework.aop.framework.AopContext;
-import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -33,11 +31,18 @@ public class CarServiceImpl implements CarService {
 
 	@Override
 	public Car getCar(String name) {
-//		((CarService)AopContext.currentProxy()).getCar(name);
+
+		Car car = ((CarService) AopContext.currentProxy()).setCar(name);
+
+		System.out.println("正在调用....");
+		return car;
+	}
+
+	@Override
+	public Car setCar(String name) {
 		Car car = new Car();
 		car.setName(name);
 		car.setColor("red");
-		System.out.println("正在调用....");
 		return car;
 	}
 }

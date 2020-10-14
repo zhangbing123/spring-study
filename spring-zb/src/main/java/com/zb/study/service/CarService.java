@@ -10,4 +10,5 @@ import com.zb.study.entity.Car;
 public interface CarService {
 
 	Car getCar(String name);
+	Car setCar(String name);
 }

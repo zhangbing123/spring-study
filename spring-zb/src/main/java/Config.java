@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @CreateDate: 2019/12/9 14:48
  */
 @EnableTransactionManagement
-@EnableAspectJAutoProxy //底层是@Import注解
+@EnableAspectJAutoProxy(exposeProxy = true) //底层是@Import注解
 @ComponentScan(basePackages = {"com.zb.study"})
 public class Config {
 
