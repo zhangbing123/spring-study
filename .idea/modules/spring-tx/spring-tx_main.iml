@@ -40,13 +40,13 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: io.vavr:vavr:0.10.0" level="project" />
     <orderEntry type="module" module-name="spring-context_main" />
-    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: javax.ejb:javax.ejb-api:3.2" level="project" />
     <orderEntry type="module" module-name="spring-expression_main" />
     <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: io.vavr:vavr:0.10.0" level="project" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: javax.ejb:javax.ejb-api:3.2" level="project" />
     <orderEntry type="module" module-name="spring-core_main" />
     <orderEntry type="module-library">
       <library>
