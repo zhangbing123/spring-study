@@ -40,7 +40,7 @@ public class AopConfig {
 //	public ProxyFactoryBean proxyFactoryBean() {
 //		ProxyFactoryBean proxyFactoryBean = new ProxyFactoryBean();
 //		proxyFactoryBean.setInterceptorNames("calculateAdvice", "calculateInterceptor");
-//		proxyFactoryBean.setTargetName("zbCalculate");
+//		proxyFactoryBean.setTargetName("calculateServiceImpl");
 //		return proxyFactoryBean;
 //	}
 //	@Bean
@@ -64,7 +64,7 @@ public class AopConfig {
 //	public ProxyFactoryBean proxyFactoryBean() {
 //		ProxyFactoryBean proxyFactoryBean = new ProxyFactoryBean();
 //		proxyFactoryBean.setInterceptorNames("nameMatchMethodPointcutAdvisor");
-//		proxyFactoryBean.setTargetName("zbCalculate");
+//		proxyFactoryBean.setTargetName("calculateServiceImpl");
 //		return proxyFactoryBean;
 //	}
 
@@ -76,7 +76,7 @@ public class AopConfig {
 //	@Bean
 //	public BeanNameAutoProxyCreator beanNameAutoProxyCreator() {
 //		BeanNameAutoProxyCreator beanNameAutoProxyCreator = new BeanNameAutoProxyCreator();
-//		beanNameAutoProxyCreator.setBeanNames("zbCalculate", "userService");
+//		beanNameAutoProxyCreator.setBeanNames("calculateServiceImpl", "userService");
 //		beanNameAutoProxyCreator.setInterceptorNames("nameMatchMethodPointcutAdvisor");
 //		return beanNameAutoProxyCreator;
 //	}
