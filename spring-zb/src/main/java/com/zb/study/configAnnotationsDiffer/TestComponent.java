@@ -1,4 +1,4 @@
-package com.zb.study.transaction;
+package com.zb.study.configAnnotationsDiffer;
 
 import com.zb.study.ioc.entity.Car;
 import com.zb.study.ioc.entity.Person;

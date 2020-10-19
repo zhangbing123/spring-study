@@ -7,5 +7,5 @@ package com.zb.study.transaction.service;
  **/
 public interface OrderService {
 
-	public void commit();
+	void commit(Long orderId);
 }

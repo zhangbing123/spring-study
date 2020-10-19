@@ -1,8 +1,6 @@
 package com.zb.study.transaction;
 
-import com.zb.study.ioc.entity.Car;
-import com.zb.study.ioc.entity.Person;
-import org.springframework.context.ApplicationContext;
+import com.zb.study.transaction.service.OrderService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -14,17 +12,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class TestTransaction {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// @Configuration注解的spring容器加载方式，用AnnotationConfigApplicationContext替换ClassPathXmlApplicationContext
-		ApplicationContext context = new AnnotationConfigApplicationContext(TransactionConfig.class);
 
-		// 获取bean
-		Person person = (Person) context.getBean("person");
-
-		// 获取bean
-		Car car = (Car) context.getBean("car");
-
-		boolean result = person.getCar() == car;
-		System.out.println(result ? "同一个car" : "不同的car");
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(TransactionConfig.class);
+		OrderService orderService = (OrderService) context.getBean("orderServiceImpl");
+		orderService.commit(System.currentTimeMillis());
 	}
 }

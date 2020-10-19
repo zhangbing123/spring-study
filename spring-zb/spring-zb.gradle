@@ -7,4 +7,11 @@ dependencies {
 	compile(project(":spring-core"))
 	compile(project(":spring-aspects"))
 	compile(project(":spring-tx"))
+	compile(project(":spring-jdbc"))
+
+	// https://mvnrepository.com/artifact/com.alibaba/druid
+	compile group: 'com.alibaba', name: 'druid', version: '1.1.23'
+
+	implementation 'mysql:mysql-connector-java:8.0.22'
+
 }
