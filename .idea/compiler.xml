@@ -32,6 +32,8 @@
       <module name="spring-jms_test" target="1.8" />
       <module name="spring-messaging_main" target="1.8" />
       <module name="spring-messaging_test" target="1.8" />
+      <module name="spring-mybatis_main" target="1.8" />
+      <module name="spring-mybatis_test" target="1.8" />
       <module name="spring-orm_main" target="1.8" />
       <module name="spring-orm_test" target="1.8" />
       <module name="spring-oxm_main" target="1.8" />

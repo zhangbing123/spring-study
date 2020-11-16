@@ -8,7 +8,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../spring-zb/build/classes/kotlin/main" />
-          <option name="classpath" value="$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.10.jar;D:/workspace/spring-study/spring-core/build/libs/spring-objenesis-repack-3.0.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.2/d2502817521477faf0712c49a6ee2a5388787fc7/aspectjweaver-1.9.2.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.10.jar;D:/workspace/spring-study/spring-core/build/libs/spring-objenesis-repack-3.0.1.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.1.23/e9de7bccb6ca18bac1e64fd4f94c697a28e520be/druid-1.1.23.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.22/ec8bfce16c8bd18d6cb598b1147aa145be1408f/mysql-connector-java-8.0.22.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.2/d2502817521477faf0712c49a6ee2a5388787fc7/aspectjweaver-1.9.2.jar;C:/Users/jm005807/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/7ec0925cc3aef0335bbc7d57edfd42b0f86f8267/protobuf-java-3.11.4.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="spring-zb" />
@@ -33,11 +33,15 @@
     <output url="file://$MODULE_DIR$/../../../spring-zb/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spring-zb/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-zb/src/main/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-zb/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-zb/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-zb/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-jdbc_main" />
     <orderEntry type="module" module-name="spring-tx_main" />
     <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
@@ -62,8 +66,11 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="spring-aspects_main" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.alibaba:druid:1.1.23" level="project" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.22" level="project" />
     <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.11.4" level="project" />
   </component>
 </module>

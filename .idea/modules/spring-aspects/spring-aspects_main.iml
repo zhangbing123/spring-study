@@ -34,6 +34,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spring-aspects/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-aspects/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-aspects/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-aspects/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -56,7 +57,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="spring-jdbc_main" />
+    <orderEntry type="module" module-name="spring-tx_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -67,16 +68,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="spring-orm_main" />
-    <orderEntry type="module" module-name="spring-core_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-aop_main" />
-    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-beans_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-jcl_main" />
-    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-core_main" />
-    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-context-support_main" />
-    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.2" level="project" />
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
@@ -86,13 +77,23 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-orm_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-jdbc_main" />
+    <orderEntry type="module" module-name="spring-context-support_main" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.9.2" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-beans_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-context-support_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-context_main" />
-    <orderEntry type="module" module-name="spring-expression_main" />
     <orderEntry type="module" module-name="spring-jdbc_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-core_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
-    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="module" module-name="spring-core_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-tx_main" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />

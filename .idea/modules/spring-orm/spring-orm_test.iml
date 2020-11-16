@@ -34,31 +34,32 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spring-orm/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-orm/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-orm/src/test/kotlin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-orm/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spring-instrument_test" production-on-test="" />
     <orderEntry type="module" module-name="spring-web_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-tx_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-orm_main" />
-    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.4" level="project" />
-    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-context_main" />
-    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.4.1.Final" level="project" />
-    <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-web_main" />
-    <orderEntry type="module" module-name="spring-jdbc_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-web_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-expression_main" />
-    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-aop_main" />
-    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-context_main" />
     <orderEntry type="module" module-name="spring-beans_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-orm_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.4" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-web_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-jdbc_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-tx_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.4.1.Final" level="project" />
+    <orderEntry type="module" module-name="spring-web_main" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.1" level="project" />
     <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
     <orderEntry type="library" name="Gradle: com.sun.xml.fastinfoset:FastInfoset:1.2.15" level="project" />
     <orderEntry type="library" name="Gradle: org.jvnet.staxex:stax-ex:1.8" level="project" />

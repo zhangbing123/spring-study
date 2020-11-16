@@ -48,6 +48,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging.iml" group="spring-messaging" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_main.iml" group="spring-messaging" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-messaging/spring-messaging_test.iml" group="spring-messaging" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-mybatis.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-mybatis.iml" group="spring-mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-mybatis/spring-mybatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-mybatis/spring-mybatis_main.iml" group="spring-mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-mybatis/spring-mybatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-mybatis/spring-mybatis_test.iml" group="spring-mybatis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm.iml" group="spring-orm" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_main.iml" group="spring-orm" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-orm/spring-orm_test.iml" group="spring-orm" />

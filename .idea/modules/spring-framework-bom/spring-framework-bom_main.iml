@@ -32,7 +32,11 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../../spring-framework-bom/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../spring-framework-bom/src/main" />
+    <content url="file://$MODULE_DIR$/../../../spring-framework-bom/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-bom/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-bom/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-framework-bom/src/main/resources" type="java-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />

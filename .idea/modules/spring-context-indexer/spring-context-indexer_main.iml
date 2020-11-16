@@ -34,6 +34,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spring-context-indexer/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-context-indexer/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-context-indexer/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-context-indexer/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -34,6 +34,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spring-oxm/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-oxm/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-oxm/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-oxm/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />

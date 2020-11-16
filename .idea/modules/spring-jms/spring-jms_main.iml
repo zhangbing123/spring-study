@@ -34,21 +34,22 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spring-jms/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-jms/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-jms/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spring-jms/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
-    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-expression_main" />
     <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-oxm_main" />
-    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-aop_main" />
-    <orderEntry type="module" module-name="spring-messaging_main" />
     <orderEntry type="library" name="Gradle: javax.resource:javax.resource-api:1.7.1" level="project" />
+    <orderEntry type="module" module-name="spring-messaging_main" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context_main" />
     <orderEntry type="module" module-name="spring-tx_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-core_main" />
