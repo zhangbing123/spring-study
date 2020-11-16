@@ -55,7 +55,7 @@ public class MyBatisConfig {    // =====>   spring.xml
     public DataSource dataSource() {
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setUsername("root");
-        dataSource.setPassword("123456");
+        dataSource.setPassword("root");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://47.100.15.16:3306/study-database");
         return dataSource;
