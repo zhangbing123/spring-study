@@ -43,15 +43,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/zhangbing/worksoft/gradle-5.2.1/lib/groovy-all-1.0-2.5.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/5.2.1/generated-gradle-jars/gradle-api-5.2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -136,7 +127,6 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -146,6 +136,16 @@
         <SOURCES>
           <root url="file://D:/zhangbing/worksoft/gradle-5.2.1/src/installation-beacon" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/zhangbing/worksoft/gradle-5.2.1/lib/groovy-all-1.0-2.5.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
