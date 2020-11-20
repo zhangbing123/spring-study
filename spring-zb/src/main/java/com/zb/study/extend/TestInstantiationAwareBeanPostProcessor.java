@@ -1,7 +1,6 @@
 package com.zb.study.extend;
 
 import org.springframework.beans.BeansException;
-import org.springframework.beans.PropertyValue;
 import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import org.springframework.stereotype.Component;
@@ -30,7 +29,7 @@ public class TestInstantiationAwareBeanPostProcessor implements InstantiationAwa
 	public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException {
 
 		if (beanClass == A.class) {
-			System.out.println("在实例化A之前调用,返回一个B的实例");
+			System.out.println("postProcessBeforeInstantiation：在实例化A之前调用,返回一个B的实例");
 			//若在此处返回一个对象 spring会认为你已经进行初始化过了 不会在调用postProcessAfterInstantiation  直接调用postProcessAfterInitialization
 			return new B();
 		}
@@ -63,7 +62,7 @@ public class TestInstantiationAwareBeanPostProcessor implements InstantiationAwa
 		 */
 
 		if (bean instanceof CustomerClass) {
-			System.out.println("实例化CustomerClass 之后调用,设置bean的name参数为 123");
+			System.out.println("postProcessAfterInstantiation：实例化CustomerClass 之后调用,设置bean的name参数为 123");
 			((CustomerClass) bean).setName("123");
 		}
 		return false;
@@ -88,10 +87,11 @@ public class TestInstantiationAwareBeanPostProcessor implements InstantiationAwa
 
 	/**
 	 * 属性赋值时 调用 但是目前这个方法已被spring 弃用了
-	 * @param pvs the property values that the factory is about to apply (never {@code null})
-	 * @param pds the relevant property descriptors for the target bean (with ignored
-	 * dependency types - which the factory handles specifically - already filtered out)
-	 * @param bean the bean instance created, but whose properties have not yet been set
+	 *
+	 * @param pvs      the property values that the factory is about to apply (never {@code null})
+	 * @param pds      the relevant property descriptors for the target bean (with ignored
+	 *                 dependency types - which the factory handles specifically - already filtered out)
+	 * @param bean     the bean instance created, but whose properties have not yet been set
 	 * @param beanName the name of the bean
 	 * @return
 	 * @throws BeansException
@@ -112,7 +112,7 @@ public class TestInstantiationAwareBeanPostProcessor implements InstantiationAwa
 	@Override
 	public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
 		if (bean instanceof CustomerClass) {
-			System.out.println("CustomerClass对象初始化之前被调用:postProcessBeforeInitialization");
+			System.out.println("postProcessBeforeInitialization：CustomerClass对象初始化之前被调用:postProcessBeforeInitialization");
 		}
 		return null;
 	}
@@ -129,10 +129,10 @@ public class TestInstantiationAwareBeanPostProcessor implements InstantiationAwa
 	public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
 
 		if (bean instanceof A) {
-			System.out.println("A对象是自己实例化的，spring直接调用初始化之后的方法，在此处设置name参数");
+			System.out.println("postProcessAfterInitialization：A对象是自己实例化的，spring直接调用初始化之后的方法，在此处设置name参数");
 			((A) bean).setName("当前A实例是被B代理的");
 		} else if (bean instanceof CustomerClass) {
-			System.out.println("CustomerClass对象初始化之后被调用：postProcessAfterInitialization");
+			System.out.println("postProcessAfterInitialization：CustomerClass对象初始化之后被调用：postProcessAfterInitialization");
 		}
 
 		return null;

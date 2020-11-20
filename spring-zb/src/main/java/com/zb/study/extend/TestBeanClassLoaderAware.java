@@ -14,7 +14,7 @@ public class TestBeanClassLoaderAware implements BeanClassLoaderAware {
 	@Override
 	public void setBeanClassLoader(ClassLoader classLoader) {
 
-		System.out.println("当前bean的类加载器:" + classLoader);
+		System.out.println("setBeanClassLoader：当前bean的类加载器:" + classLoader);
 
 	}
 }

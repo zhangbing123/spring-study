@@ -12,6 +12,6 @@ import org.springframework.stereotype.Component;
 public class TestBeanNameAware implements BeanNameAware {
 	@Override
 	public void setBeanName(String name) {
-		System.out.println("获取到beanName:" + name);
+		System.out.println("setBeanName：获取到beanName:" + name);
 	}
 }

@@ -15,6 +15,7 @@ public class TestTransaction {
 
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(TransactionConfig.class);
 		OrderService orderService = (OrderService) context.getBean("orderServiceImpl");
-		orderService.commit(System.currentTimeMillis());
+//		orderService.commit(2L);
+		orderService.find(1L);
 	}
 }

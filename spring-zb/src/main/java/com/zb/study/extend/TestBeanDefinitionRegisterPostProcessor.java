@@ -31,7 +31,7 @@ public class TestBeanDefinitionRegisterPostProcessor implements BeanDefinitionRe
 
 	@Override
 	public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry registry) throws BeansException {
-		System.out.println("实现BeanDefinitionRegistryPostProcessor，获取Bean的注册器，开始自定义注册bean定义");
+		System.out.println("postProcessBeanDefinitionRegistry:实现BeanDefinitionRegistryPostProcessor，获取Bean的注册器，开始自定义注册bean定义");
 		RootBeanDefinition beanDefinition = new RootBeanDefinition(CustomerClass.class);
 		registry.registerBeanDefinition("customerClass", beanDefinition);
 	}

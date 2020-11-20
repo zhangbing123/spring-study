@@ -8,4 +8,6 @@ package com.zb.study.transaction.service;
 public interface OrderService {
 
 	void commit(Long orderId);
+
+	void find(Long orderId);
 }
